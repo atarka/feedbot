@@ -1,0 +1,23 @@
+{
+  "name": "feedbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "client": "node --experimental-modules src/app.js",
+    "monitor": "node --experimental-modules src/monitor.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "mysql2": "^2.1.0",
+    "node-fetch": "^2.6.0",
+    "socket-io": "^1.0.0",
+    "socket.io-client": "^2.3.0",
+    "webpack": "^4.42.0",
+    "webpack-cli": "3.1.1",
+    "websocket": "^1.0.31",
+    "ws": "^7.2.1"
+  }
+}
