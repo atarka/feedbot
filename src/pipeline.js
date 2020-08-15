@@ -117,7 +117,7 @@ class Pipeline {
     } else if (text.match(/^(следить|слежка)$/)) {
       return await this.activateMonitoring(message);
 
-    } else if (text.match(/^(оставить|прекратить|отмена)$/)) {
+    } else if (text.match(/^(отставить|прекратить|отмена)$/)) {
       return await this.deactivateMonitoring(message);
 
     } else if (text.match(/^(статистика)$/)) {
